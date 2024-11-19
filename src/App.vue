@@ -11,5 +11,9 @@ export default {
 </script>
 
 <style>
-/* Tu peux ajouter tes styles globaux ici */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 </style>

@@ -12,7 +12,7 @@
         Cliquer sur le boutton ci-dessous pour commencer l'exercice
       </p>
       <div>
-        <Button label = "Commencer"/>
+        <Button @click="goToQuiz" label = "Commencer"/>
       </div>
     </div>
   </section>
@@ -29,8 +29,13 @@ export default {
   name: 'Home',
   components:{
     Button, Footer
-  }
-}
+  },
+  methods:{
+    goToQuiz(){
+      this.$router.push('/quiz')
+    }
+  },
+};
 </script>
 
 <style>
@@ -57,6 +62,11 @@ h2{
   color: #003481;
   text-align: center;
   font-weight: 700;
+}
+
+h3{
+  font-size: 1.5rem;
+  color: #7e7a7a;
 }
 
 p{
