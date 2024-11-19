@@ -1,0 +1,125 @@
+{
+    "quiz": [
+      {
+        "id": 1,
+        "question": "Qu'est-ce qu'une action en bourse ?",
+        "options": [
+          "Un prêt accordé à une entreprise",
+          "Une part de propriété dans une entreprise",
+          "Un produit dérivé utilisé pour spéculer",
+          "Une obligation émise par le gouvernement"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Une action représente une part de propriété dans une entreprise et donne souvent droit à des dividendes."
+      },
+      {
+        "id": 2,
+        "question": "Quel est le rôle principal d'une banque centrale ?",
+        "options": [
+          "Prêter de l'argent aux entreprises",
+          "Fixer les taux d'intérêt et gérer la masse monétaire",
+          "Offrir des prêts hypothécaires",
+          "Émettre des cartes de crédit"
+        ],
+        "correctAnswer": 1,
+        "explanation": "La banque centrale régule la masse monétaire et fixe les taux d'intérêt pour stabiliser l'économie."
+      },
+      {
+        "id": 3,
+        "question": "Que signifie 'diversification' en matière d'investissement ?",
+        "options": [
+          "Investir dans des produits similaires",
+          "Investir dans différents secteurs pour réduire les risques",
+          "Éviter les investissements à long terme",
+          "Augmenter les rendements en achetant des actions à haut risque"
+        ],
+        "correctAnswer": 1,
+        "explanation": "La diversification consiste à répartir les investissements pour minimiser les risques."
+      },
+      {
+        "id": 4,
+        "question": "Qu'est-ce qu'une obligation ?",
+        "options": [
+          "Un produit financier dérivé",
+          "Une dette contractée par une entreprise ou un gouvernement",
+          "Une action à haut rendement",
+          "Un investissement spéculatif"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Une obligation est un titre de dette émis par une entité pour emprunter des fonds."
+      },
+      {
+        "id": 5,
+        "question": "Quel est l'objectif d'un fonds indiciel (ETF) ?",
+        "options": [
+          "Battre le marché",
+          "Reproduire la performance d'un indice boursier",
+          "Investir uniquement dans les actions technologiques",
+          "Éviter les fluctuations de marché"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Un fonds indiciel vise à répliquer la performance d'un indice comme le S&P 500."
+      },
+      {
+        "id": 6,
+        "question": "Qu'est-ce qu'un dividende ?",
+        "options": [
+          "Un remboursement de capital",
+          "Un pourcentage des bénéfices versé aux actionnaires",
+          "Un produit dérivé",
+          "Une taxe sur les actions"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Un dividende est une part des bénéfices d'une entreprise versée à ses actionnaires."
+      },
+      {
+        "id": 7,
+        "question": "Quelle est la principale différence entre un actif et un passif ?",
+        "options": [
+          "Les actifs génèrent des revenus, les passifs coûtent de l'argent",
+          "Les actifs sont des biens physiques, les passifs sont virtuels",
+          "Les passifs sont toujours plus coûteux",
+          "Les actifs incluent uniquement des actions et obligations"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Un actif ajoute de la valeur, tandis qu'un passif entraîne des dépenses."
+      },
+      {
+        "id": 8,
+        "question": "Que signifie le terme 'liquidité' ?",
+        "options": [
+          "La facilité avec laquelle un actif peut être converti en espèces",
+          "Un actif qui génère des revenus",
+          "Une méthode pour calculer les bénéfices",
+          "Une forme de prêt bancaire"
+        ],
+        "correctAnswer": 0,
+        "explanation": "La liquidité désigne la capacité à convertir un actif en cash rapidement."
+      },
+      {
+        "id": 9,
+        "question": "Qu'est-ce qu'un marché haussier ?",
+        "options": [
+          "Un marché où les prix baissent",
+          "Un marché où les prix augmentent",
+          "Un marché stable",
+          "Un marché qui ne concerne que les actions"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Un marché haussier se caractérise par une hausse générale des prix."
+      },
+      {
+        "id": 10,
+        "question": "Qu'est-ce qu'un taux d'intérêt ?",
+        "options": [
+          "Un pourcentage prélevé sur les bénéfices",
+          "Le coût d'emprunter de l'argent",
+          "Un revenu passif généré par les investissements",
+          "Une taxe imposée sur les entreprises"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Le taux d'intérêt représente le coût payé pour emprunter de l'argent."
+      }
+    ]
+  }
+  
