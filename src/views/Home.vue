@@ -24,11 +24,12 @@
 <script>
 import Button from '@/components/Button.vue';
 import Footer from '@/components/Footer.vue';
+import Arrow from '@/components/Arrow.vue';
 
 export default {
   name: 'Home',
   components:{
-    Button, Footer
+    Button, Arrow , Footer
   },
   methods:{
     goToQuiz(){
@@ -89,6 +90,7 @@ body{
 
 section{
   padding: 2rem;
+  height: auto;
 }
 
 </style>

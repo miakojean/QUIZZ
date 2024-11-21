@@ -16,10 +16,15 @@
                 </label>
             </li>
             </ul>
-            <button @click="nextQuestion" :disabled="answerSelected === null">Suivant</button>
         </div>
         <div v-else>
             <p>Chargement des questions...</p>
+        </div>
+        <div class="Arrow">
+            <Arrow
+            @click="previousQuestion"
+            @nextQuestion="nextQuestion"
+            />
         </div>
     </section>
     <footer>
@@ -30,6 +35,7 @@
 <script>
 import Footer from '@/components/Footer.vue';
 import Checkbox from '@/components/Checkbox.vue';
+import Arrow from '@/components/Arrow.vue';
 
 export default {
 name: "Quiz",
@@ -71,7 +77,7 @@ mounted() {
     .catch((error) => console.error("Erreur lors du chargement du quiz :", error));
 },
 components:{
-    Footer, Checkbox
+    Footer, Arrow, Checkbox
 }
 };
 </script>
@@ -106,12 +112,14 @@ components:{
 label{
     display: flex;
     gap: 1rem;
+    padding: 0.5rem;
 }
 
-input{
+input[type = "radio"]{
+    background-color: blue;
     cursor: pointer;
+    padding: 0.5rem;
 }
-
 li {
     list-style: none;
     font-size: 1rem;

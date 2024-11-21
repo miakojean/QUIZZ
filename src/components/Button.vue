@@ -29,7 +29,7 @@ font-family: 'Nunito', sans-serif;
 }
 
 button{
-  padding: 0.5rem;
+  padding: 0.8rem;
   font-size: 1rem;
   border-radius: 1rem;
   border: none;
